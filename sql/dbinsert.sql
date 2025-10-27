@@ -1,10 +1,5 @@
 -- dbinsert.sql
 
--- if connection error: 
--- cmd 접속 시: mysql -u team08 team08 --local-infile=1 team08
--- XAMPP Control Pane > MySQL Config > [mysqld] 아래에 local_infile=1 추가
--- MySQL Workbench: Edit connection > Advanced > Others:에 OPT_LOCAL_INFILE=1 추가
-
 USE team08;
 
 SET FOREIGN_KEY_CHECKS=0;
