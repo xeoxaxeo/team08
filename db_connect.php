@@ -4,17 +4,9 @@
  */
 
 $host = 'localhost';  
-$user = 'root'; 
-$pass = '';
+$user = 'team08'; 
+$pass = 'team08';
 $db   = 'team08';
-
-/*
- * 제출 전 수정
- * $host = 'localhost';
-   $user = 'team08';
-   $pass = 'team08';
-   $db   = 'team08';
-*/
 
 $conn = new mysqli($host, $user, $pass, $db);
 
