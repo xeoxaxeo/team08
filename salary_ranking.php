@@ -1,5 +1,6 @@
 <?php
 // 2170045 서자영
+// 2176279 이유진
 session_start();
 include 'db_connect.php';
 

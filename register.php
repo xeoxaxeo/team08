@@ -7,6 +7,8 @@
 <body id="userPage">
     <!-- 2170045 서자영 -->
     <?php
+    // 2170045 서자영
+    // 2176279 이유진
     include 'pages/nav.php';
     ?>
     <div class="layout">

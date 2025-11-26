@@ -3,7 +3,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <!-- <title>Baseball Analytics</title> -->
+    <!-- 2176279 이유진 -->
     <!-- <link rel="stylesheet" href="../css/main.css"/> -->
     <style>
         body{

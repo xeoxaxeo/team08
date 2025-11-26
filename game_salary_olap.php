@@ -1,5 +1,6 @@
 <?php
 // 2271103 주원교
+// 2176279 이유진
 session_start();
 include 'db_connect.php'; 
 
