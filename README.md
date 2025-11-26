@@ -97,7 +97,10 @@ team08/
 ├── register.php           # [Auth/View] 신규 회원가입 입력 폼
 ├── register_process.php   # [Auth/Logic] 중복 ID 체크 후 password_hash로 비밀번호 암호화 저장
 ├── salary_ranking.php     # [Analysis/View] RANK() 함수로 연도별 선수 연봉 순위 계산 및 출력
-└── team_ranking.php       # [Analysis/View] RANK() 함수로 시즌/리그별 팀 승률 순위 산출 및 공식 랭킹 비교
+├── team_ranking.php       # [Analysis/View] RANK() 함수로 시즌/리그별 팀 승률 순위 산출 및 공식 랭킹 비교
+├── stats_per_position.php # [Analysis/View] 연도/포지션별 타자/투수 성적 집계(AVG/SUM) 및 팀 간 비교
+├── game_salary_olap.php   # [Analysis/View] ROLLUP으로 연도별 리그 연봉의 계층적 합산 결과 산출 및 분석
+└── team_salary_olap.php   # [Analysis/View] ROLLUP으로 연도/리그별 팀 연봉의 계층적 합산 결과 산출 및 분석
 ```
 
 -----
