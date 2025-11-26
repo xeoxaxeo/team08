@@ -1,4 +1,5 @@
 <?php
+// 2271103 주원교
 session_start();
 include 'db_connect.php'; 
 
