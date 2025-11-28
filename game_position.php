@@ -227,6 +227,7 @@ include 'db_connect.php';
             .then(fetch(`game_roster.php?action=getPlayers&gameID=${gameID}`)
                 .then(res => res.json())
                 .then(data => {
+                    console.log(gameID);
                     showLoading(false);
                     console.log(data);
                     if (data.error) {

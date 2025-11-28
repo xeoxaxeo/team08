@@ -157,6 +157,7 @@ include 'db_connect.php';
         const playerID = playerSelect.value;
 
         if (playerID) {
+            console.log(playerID);
             fetch(`player_trend.php?action=getStats&playerID=${playerID}`)
                 .then(res => res.json())
                 .then(data => {
