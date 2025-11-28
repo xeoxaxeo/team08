@@ -19,7 +19,7 @@ $result_check = $stmt_check->get_result();
 
 if ($result_check->num_rows > 0) {
     echo "<script>
-            alert('이미 사용 중인 아이디입니다.');
+            alert('The Id is already exists.');
             window.history.back();
           </script>";
 } else {
@@ -30,12 +30,12 @@ if ($result_check->num_rows > 0) {
 
     if ($stmt_insert->execute()) {
         echo "<script>
-                alert('회원가입 성공. 로그인 해주세요.');
+                alert('Successed to sign up.');
                 location.href = 'login.php';
               </script>";
     } else {
         echo "<script>
-                alert('회원가입 실패: " . $conn->error . "');
+                alert('Failed to sign up: " . $conn->error . "');
                 window.history.back();
               </script>";
     }

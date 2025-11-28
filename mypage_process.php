@@ -4,7 +4,7 @@ session_start();
 include 'db_connect.php';
 
 if (!isset($_SESSION['userid'])) {
-    die("로그인이 필요합니다.");
+    die("You need to login.");
 }
 
 $userId = $_SESSION['userid'];
@@ -20,12 +20,12 @@ if ($stmt->execute()) {
     $_SESSION['username'] = $newUserName;
     
     echo "<script>
-            alert('이름이 성공적으로 변경되었습니다.');
+            alert('Name has modified successfully.');
             location.href = 'mypage.php';
           </script>";
 } else {
     echo "<script>
-            alert('이름 수정 실패: " . $conn->error . "');
+            alert('Failed to modify name: " . $conn->error . "');
             window.history.back();
           </script>";
 }
