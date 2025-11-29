@@ -3,5 +3,5 @@
 
 USE team08;
 SET FOREIGN_KEY_CHECKS=0;
-DROP TABLE IF EXISTS AllstarFull, Batting, Fielding, Pitching, Salaries, Teams, Master;
+DROP TABLE IF EXISTS AllstarFull, Batting, Fielding, Pitching, Salaries, Teams, Master, Users;
 SET FOREIGN_KEY_CHECKS=1;
